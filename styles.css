@@ -1,0 +1,131 @@
+/* Start of my CSS file */
+
+@media screen and (min-width: 800px) {
+    article {
+      padding: 2rem 3rem;
+    }
+  }
+
+h1 {
+    color:red;
+    font-size: 12pc;
+    text-decoration: underline;
+    text-align: center;
+    position: relative;
+}
+h2 {
+    color:rgb(192, 192, 199);
+    height: 0.75cm;
+    position: sticky;
+}
+h1 {
+    background-color: blueviolet;
+    width: 20cm;
+    max-width: 60cm;
+    min-width: none;
+}
+h3 {
+    color: #FBF;
+    font-size: 0.5in;
+    display: inline;
+}
+.special {
+    color:hsl(5, 75%, 50%);
+}
+
+.wrapper {
+    font-size: 1cm;
+}
+
+.px {
+    width: 100px;
+  }
+  
+  .vw {
+    width: 50vw;
+  }
+  
+  .em {
+    width: 20em;
+  }
+
+  .wrapper {
+      border-radius: 0.5cm;
+      border-width: 1px;
+      border-style: solid;
+      border-color: green;
+      margin-top: 100px;
+     margin-bottom: 100px;
+     margin-right: 150px;
+      margin-left: 80px;
+      padding-left: 1%;
+      padding-right: 1%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+  }
+
+  .forms {
+    margin: 25px 50px 75px 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    flex-grow: 4;
+  }
+
+  .audionote {
+      margin: auto;
+      border: 1px solid black;
+      padding: 1% 1% 1% 1%;
+      display: block;
+  }
+  
+  em:hover {
+      color: green;
+  }
+  
+  .wrapper:active {
+      color:red;
+  }
+
+  header {
+      display: grid;
+      grid-column-start: 1;
+     grid-column-end: span col4-start;
+    grid-row-start: 2;
+  }
+
+  .secmain {
+      color:red;
+  }
+
+  * {
+    font-family: 'Noto Sans Mono', monospace;
+  }
+
+  li[class="imgse"] {
+      background-color: yellow;
+  }
+
+  header div:first-child, a {
+      background-color: chocolate;
+  }
+
+  .wrapper p {
+      background-color: cyan;
+  }
+
+  ol > li {
+    border-top: 5px solid red;
+}  
+
+h4 ~ p {
+    font-weight: bold;
+}
+
+h4 + p {
+    background-color: red;
+}
+
+ol > li[class="sec"] {
+    color: green;
+}

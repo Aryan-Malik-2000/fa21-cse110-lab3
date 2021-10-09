@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aryan's Meeting Minutes</title>
     <link rel="110 icon" type="images/png" href="MeetingNotes.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100&display=swap" rel="stylesheet">
 </head>
     <body>
         <header>
@@ -12,7 +16,7 @@
             <nav>
               <ul>
                 <li><a href="#MainP">Main Page</a></li>
-                <li><a href="#subscribe">Subscribe to Mailing List</a></li>
+                <li class="imgse"><a href="#subscribe">Subscribe to Mailing List</a></li>
               </ul>
             </nav>
           </header>
@@ -20,26 +24,28 @@
             <h1 id="MainP">Aryan's Meeting Notes</h1>
             <h2>Thing's that people have missed</h2>
             <h3>Date: 03/10/2021</h3>
+            <h4>Under</h4>
+            <p>This para</p>
         </main>
         <section>
             Attendence List:
             <ol>
-                <li>Alex</li>
+                <li class="special">Alex</li>
                 <li>Kelly</li>
                 <li>Aryan</li>
-                <li>Peter</li>
+                <li class="sec">Peter</li>
                 <li>Lucas</li>
             </ol>
         </section>
         <hr />
         <p><em>The agenda of the meeting will cover -</em> This meeting will cover the previous week's content and also go over what we are going to produce next quarter</p>
-        <p>New business will be what the boss wants to cover from <b>HR</b></p>
+        <p>New business will be what the boss wants to cover from <b class="HRrep">HR</b></p>
         <p>There were no <strong>comments / questions / concerns</strong> that anyone brought up</p>
-        <p><i>Please subscribe to the email list at the bottom if you miss a meeting</i></p>
+        <p class="linetosub"><i>Please subscribe to the email list at the bottom if you miss a meeting</i></p>
         <br />
         <img src="SWE_Diagram.pbm" alt="Image">
         <hr />
-        <audio controls>
+        <audio controls class="audionote">
             <source src="VoiceNote.mp3" type="audio/mpeg">
         </audio>
         <hr />
@@ -47,7 +53,7 @@
             <source src="VideoRecording.mp4" type="video/mp4">
         </video>
         <hr />
-        <form action="FormProcessor" method="get">
+        <form action="FormProcessor" method="get" class="forms">
             <fieldset>
                 <legend>About you?</legend>
                 <p>Name: <input type="text" name="Name" /> </p>
@@ -70,6 +76,11 @@
           </datalist>
           <br />
           <br />
+          <div class="wrapper"><p>Text in this box</p>
+            <div class="box px">I am 100px wide</div>
+            <div class="box vw">I am 50vw wide</div>
+            <div class="box em">I am 20em wide</div>
+          </div>
           <br />
         <label for="ComputerBrands">Choose a computer brand:</label>
         <select name="ComputerBrands" id="ComputerBrands">
